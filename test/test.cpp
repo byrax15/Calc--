@@ -5,6 +5,6 @@
 #include "gtest/gtest.h"
 #include "../CalcLib/test_mod.h"
 
-TEST(Ta, Mere) {
+TEST(test_mod_test, test_return__returns_true) {
     EXPECT_EQ(true, test_return());
 }
